@@ -74,18 +74,19 @@ pip install jupysql notebook
 ### Steps
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/AX-Consult-Group/northwind-sql-analysis.git
-   cd northwind-sql-analysis
-   ```
+
+```bash
+git clone https://github.com/JurgenBecker72/SQL-Retail-Data.git
+cd SQL-Retail-Data
+```
 
 2. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
+
+```bash
+jupyter notebook
+```
 
 3. Open `northwind project-1.ipynb`
-
 4. Run all cells — the notebook connects automatically to the local `northwind.db` SQLite file
 
 ---
@@ -96,25 +97,22 @@ The full styled analysis report is available as a self-contained HTML file:
 
 👉 **[ANALYSIS.html](ANALYSIS.html)** — open directly in any browser, no dependencies required
 
-> If GitHub Pages is enabled on this repo, the report is also live at:
-> `https://yourusername.github.io/northwind-sql-analysis/ANALYSIS.html`
-
 ---
 
 ## Project Structure
 
 ```
-northwind-sql-analysis/
+SQL-Retail-Data/
 │
-├── northwind project-1.ipynb   # Main analysis notebook
-├── northwind.db                # SQLite database file
-├── ANALYSIS.html               # Full styled HTML report (open in browser)
-├── ANALYSIS.md                 # Markdown version of the analysis
-├── ER.png                      # Database entity relationship diagram
-├── project_overview.png        # Project architecture graphic
-├── notebook_images/            # Chart PNGs referenced by ANALYSIS.md
-├── README.md                   # This file
-└── LICENSE                     # MIT License
+├── northwind project-1.ipynb     # Main analysis notebook
+├── northwind.db                  # SQLite database file
+├── ANALYSIS.html                 # Full styled HTML report (open in browser)
+├── ANALYSIS.md                   # Markdown version of the analysis
+├── ER.png                        # Database entity relationship diagram
+├── project_overview.png          # Project architecture graphic
+├── notebook_images/              # Chart PNGs referenced by ANALYSIS.md
+├── README.md                     # This file
+└── LICENSE                       # MIT License
 ```
 
 ---
@@ -131,8 +129,9 @@ northwind-sql-analysis/
 
 ## Author
 
-**AX Consult Group**
-- GitHub: [github.com/AX-Consult-Group](https://github.com/AX-Consult-Group)
+**Jürgen Becker, Ph.D.** — AX Consult Group
+
+- GitHub: [github.com/JurgenBecker72](https://github.com/JurgenBecker72)
 - Email: jurgenb@axconsultgroup.com
 
 ---
